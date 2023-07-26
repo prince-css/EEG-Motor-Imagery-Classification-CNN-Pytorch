@@ -3,28 +3,27 @@
 Date: July, 2023
 
 
-Based on the Paper:
+**Based on the Paper:**
 
-A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN
+[A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta)
 
 The method in this repository is EEG source imaging (ESI) + Fourier Transform for joint time-frequency analysis + Convolutional Neural Networks (CNNs). The raw data has been processed using the Matlab Toolkit Brainstorm. 
 
-
-![64-channel-sharbrough-1](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/da58e004-d073-41fa-86c9-9305b267682e)
-
-##Filtering Data:
+<img src="https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/blob/main/64-channel-sharbrough-1.jpg" alt="64_channels" width="400" height="400">
 
 
-![filter0](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/5bf1f281-217e-4e08-b283-bcf52e995ff3)
-
-##time-frequency analysis:
+<h3>Filtering Data:</h3>
 
 
-![map0](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/43591d57-5d24-41bc-bb20-f9d24dd7df9e)
+<img src="https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/blob/main/viz/filter0.png" alt="filter0" width="400" height="400">
+
+<h3>time-frequency analysis:</h3>
 
 
+<img src="https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/blob/main/viz/map0.png" alt="filter0" width="400" height="400">
 
-## Model Summary:
+
+<h3>Model Summary:</h3>
 
 ```
         Layer (type)               Output Shape         Param #
@@ -53,17 +52,14 @@ Trainable params: 2,106,852
 Non-trainable params: 0
 ```
 
-##Results:
+<h3>Results:</h3>
 
-![global_acc](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/8218bf3e-f0a4-4e20-b057-94a834b78d47)
+<img src="https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/blob/main/viz/global_acc.png" alt="global_acc" width="400" height="400">
 
-
-
-![acc_all_tasks](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/6359665![confusion_matrix_R5](https://github.com/prince-css/EEG-
+<img src="https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/blob/main/viz/acc_all_tasks.png" alt="all_tasks_acc" width="400" height="400">
 
 
-##Confusion matrix of R5 scout:
+<h3>Confusion matrix of R5 scout:</h3>
 
-
-![confusion_matrix_R5](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/f6b32301-1ec1-48df-9381-643046a05d99)
+<img src="https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/blob/main/viz/confusion_matrix_R5.png" alt="cm_r5" width="400" height="400">
 
