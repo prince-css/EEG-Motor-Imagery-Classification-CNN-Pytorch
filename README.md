@@ -7,7 +7,7 @@ Date: July, 2023
 
 [A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta)
 
-The method in this repository is EEG source imaging (ESI) + Fourier Transform for joint time-frequency analysis + Convolutional Neural Networks (CNNs). The raw data has been processed using the Matlab Toolkit Brainstorm. 
+The method in this repository is EEG source imaging (ESI) + Fourier Transform for joint time-frequency analysis + Convolutional Neural Networks (CNNs). The raw data has been processed using the Matlab Toolkit Brainstorm. The technique of ESI uses a boundary element method (BEM) and weighted minimum norm estimation (WMNE) to solve the EEG forward and inverse problems, respectively. Ten scouts are then created within the motor cortex to select the region of interest (ROI). Features were extracted from the time series of scouts using a Morlet wavelet approach. Lastly, CNN is employed for classifying MI tasks.
 
 <img src="https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/blob/main/64-channel-sharbrough-1.jpg" alt="64_channels" width="400" height="400">
 
