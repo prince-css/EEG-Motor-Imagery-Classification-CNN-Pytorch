@@ -1,7 +1,11 @@
 # EEG-Motor-Imagery-Classification-CNN-Pytorch
 
 Author: MD Rakibul Islam Prince, Purdue School of Engineering and Technology,IUPUI
+
+
 Date: July, 2023
+
+
 Based on the Paper:
 
 A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN
