@@ -18,15 +18,17 @@ The method in this repository is EEG source imaging (ESI) + Fourier Transform fo
 ![filter0](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/5bf1f281-217e-4e08-b283-bcf52e995ff3)
 
 ##time-frequency analysis:
+
+
 ![map0](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/43591d57-5d24-41bc-bb20-f9d24dd7df9e)
 
 
 
 ## Model Summary:
 
-----------------------------------------------------------------
+```
         Layer (type)               Output Shape         Param #
-================================================================
+
             Conv2d-1           [-1, 32, 32, 20]             320
            Dropout-2           [-1, 32, 32, 20]               0
             Conv2d-3           [-1, 32, 32, 20]           9,248
@@ -45,20 +47,23 @@ The method in this repository is EEG source imaging (ESI) + Fourier Transform fo
       BatchNorm2d-16            [-1, 512, 1, 1]           1,024
           Dropout-17                  [-1, 512]               0
            Linear-18                    [-1, 4]           2,052
-================================================================
+	   
 Total params: 2,106,852
 Trainable params: 2,106,852
 Non-trainable params: 0
+```
 
 ##Results:
 
 ![global_acc](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/8218bf3e-f0a4-4e20-b057-94a834b78d47)
 
+
+
 ![acc_all_tasks](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/6359665![confusion_matrix_R5](https://github.com/prince-css/EEG-
+
 
 ##Confusion matrix of R5 scout:
 
 
-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/bd10ec8d-fe26-4fa6-902a-7a1279c3091c)
-7/eccfd83e-e467-416a-98be-e37751c9ff3c)
+![confusion_matrix_R5](https://github.com/prince-css/EEG-Motor-Imagery-Classification-CNN-Pytorch/assets/63596657/f6b32301-1ec1-48df-9381-643046a05d99)
 
